@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS contacs_app;
+DROP DATABASE IF EXISTS contacts_app;
 
-CREATE DATABASE IF NOT EXISTS contacs_app;
+CREATE DATABASE IF NOT EXISTS contacts_app;
 
-USE contacs_app;
+USE contacts_app;
 
 CREATE TABLE contacts (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -11,3 +11,4 @@ CREATE TABLE contacts (
 );
 
 INSERT INTO contacts (name, phone_number) values ('John Doe', '+593987654321');
+INSERT INTO contacts (name, phone_number) values ('Eliot Alderson', '+593987654321');
